@@ -70,7 +70,9 @@ Creating the docker container takes some time. Therefore `make clean_firmware` c
 
 ## Flashing firmware
 
-Follow the programming instruction on page 8 of the [Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf) to flash the firmware.
+Follow the programming instruction on page 8 of the
+[Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf)
+to flash the firmware.
 
 ### Overview
 
