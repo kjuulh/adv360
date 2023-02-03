@@ -1,5 +1,7 @@
 # ADV360-PRO-ZMK
 
+test
+
 ## To build Firmware in GitHub Actions
 
 ### Setup
@@ -22,9 +24,12 @@ Either Podman or Docker is required, Podman is preferred if both are present.\
 Make is also required
 
 #### Windows specific
-If compiling on Windows use WSL2 and Docker [Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).\
+
+If compiling on Windows use WSL2 and Docker
+[Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).\
 Install make using `sudo apt-get install make`.\
-The repository can be cloned directly into the WSL2 instance or accessed through the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
+The repository can be cloned directly into the WSL2 instance or accessed through
+the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
 
 ### Build firmware
 
@@ -33,11 +38,14 @@ The repository can be cloned directly into the WSL2 instance or accessed through
 
 ### Cleanup
 
-The built docker container and compiled firmware files can be deleted with `make clean`.
+The built docker container and compiled firmware files can be deleted with
+`make clean`.
 
 ## Flashing firmware
 
-Follow the programming instruction on page 8 of the [Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf) to flash the firmware.
+Follow the programming instruction on page 8 of the
+[Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf)
+to flash the firmware.
 
 ## Other support
 
