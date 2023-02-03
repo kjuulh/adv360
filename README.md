@@ -38,11 +38,14 @@ There is a GUI for editing the keymap. It is available at https://kinesiscorpora
 
 ### Cleanup
 
-The built docker container and compiled firmware files can be deleted with `make clean`.
+The built docker container and compiled firmware files can be deleted with
+`make clean`.
 
 ## Flashing firmware
 
-Follow the programming instruction on page 8 of the [Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf) to flash the firmware.
+Follow the programming instruction on page 8 of the
+[Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf)
+to flash the firmware.
 
 ### briefly
 
