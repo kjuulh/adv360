@@ -1,8 +1,10 @@
 # ADV360-PRO-ZMK
 
-test
+## Modifying the keymap
 
-## To build Firmware in GitHub Actions
+There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI
+
+## Building the Firmware with GitHub Actions
 
 ### Setup
 
@@ -14,22 +16,20 @@ test
 1. Push a commit to trigger the build.
 2. Download the artifact.
 
-## Local building in a container
+## Building the Firmware in a local container
 
 ### Setup
 
 #### Software
 
-Either Podman or Docker is required, Podman is preferred if both are present.\
-Make is also required
+* Either Podman or Docker is required, Podman is preferred if both are present.
+* Make is also required
 
 #### Windows specific
 
-If compiling on Windows use WSL2 and Docker
-[Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).\
-Install make using `sudo apt-get install make`.\
-The repository can be cloned directly into the WSL2 instance or accessed through
-the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
+* If compiling on Windows use WSL2 and Docker [Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).
+* Install make using `sudo apt-get install make`.
+* The repository can be cloned directly into the WSL2 instance or accessed through the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
 
 ### Build firmware
 
@@ -47,8 +47,24 @@ Follow the programming instruction on page 8 of the
 [Quick Start Guide](https://kinesis-ergo.com/wp-content/uploads/Advantage360-Professional-QSG-v8-25-22.pdf)
 to flash the firmware.
 
+### briefly
+
+1. Extract the firmwares from the downloaded archive.
+1. Connect the left side keyboard to USB.
+1. Press Mod+macro1 to put the left side into bootloader mode; it should attach to your computer as a USB drive.
+1. Copy `left.uf2` to the USB drive and it will disconnect.
+1. Power off both keyboards (by unplugging them and making sure the switches are off).
+1. Turn on the left side keyboard with the switch.
+1. Connect the right side keyboard to USB to power it on.
+1. Press Mod+macro3 to put the right side into bootloader mode to attach it as a USB drive.
+1. Copy `right.uf2` to the mounted drive.
+1. Unplug the right side keyboard and turn it back on.
+1. Enjoy!
+
+
 ## Other support
 
-Further support resources can be found on Kinesis.com
-https://kinesis-ergo.com/support/kb360pro/#firmware-updates
-https://kinesis-ergo.com/support/kb360pro/#manuals
+Further support resources can be found on Kinesis.com:
+
+* https://kinesis-ergo.com/support/kb360pro/#firmware-updates
+* https://kinesis-ergo.com/support/kb360pro/#manuals
