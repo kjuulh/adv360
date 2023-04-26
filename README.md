@@ -61,7 +61,6 @@ to flash the firmware.
 1. Unplug the right side keyboard and turn it back on.
 1. Enjoy!
 
-> Note: There are also physical reset buttons on both keyboards which can be used to enter and exit the bootloader mode. Their location is described in section 2.7 on page 9 in the [User Manual](https://kinesis-ergo.com/wp-content/uploads/Advantage360-ZMK-KB360-PRO-Users-Manual-v3-10-23.pdf) and use is described in section 5.9 on page 14. 
 
 ## Other support
 
