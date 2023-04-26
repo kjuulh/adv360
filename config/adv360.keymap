@@ -48,6 +48,7 @@
            &kp ESC         &kp A     &kp S     &kp D      &kp F   &kp G                &none    &kp END      &kp HOME   &none   &none  &kp PG_DN  &kp PG_UP      &kp MINUS   &kp H   &kp J      &kp K     &kp L  &kp SEMI         &kp SQT
          &kp LSHFT         &kp Z     &kp X     &kp C      &kp V   &kp B                &none      &none  &kp LEFT_ALT   &none   &none  &kp LGUI      &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp ENTER
          &kp LCTRL  &kp LEFT_ALT  &kp LGUI  &kp LEFT  &kp RIGHT                    &kp SPACE  &kp LCTRL         &mo 1                      &mo 2  &kp ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp LEFT_SHIFT
+        >;
       };
     keypad {
       bindings = <
